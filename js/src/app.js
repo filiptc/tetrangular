@@ -22,16 +22,6 @@ define([
     );
   };
 
-  var bootstrap = function () {
-    if (!document.injector) {
-      angular.bootstrap(document, [config.appName]);
-    }
-    try {
-      var html = document.getElementsByTagName('html')[0];
-      html.setAttribute('data-ng-app', config.appName);
-    } catch (e) {}
-  };
-
   var appSetup = function (app) {
     appComponents(app, config);
     appConfigure(app, config);
@@ -42,6 +32,5 @@ define([
   return function () {
     var app = createApp(config);
     appSetup(app, config);
-    bootstrap(config);
   };
 });
