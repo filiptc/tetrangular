@@ -23,8 +23,8 @@ require.config({
 });
 
 require(
-  ['stacktrace', 'angular', 'route', 'states', 'animate', 'cookies', 'restangular', 'app'],
-  function (stacktrace, angular, route, states, animate, cookies, restangular, App) {
+  ['angular', 'route', 'states', 'animate', 'cookies', 'restangular', 'app'],
+  function (angular, route, states, animate, cookies, restangular, App) {
     'use strict';
     App();
   }
