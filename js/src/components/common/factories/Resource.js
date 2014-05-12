@@ -1,7 +1,7 @@
 define(function () {
   'use strict';
 
-  function (Restangular) {
+  return function (Restangular) {
     
     function DataResource(resource, id) {
       if (!(this instanceof DataResource)) {
