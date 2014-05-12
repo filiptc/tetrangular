@@ -4,9 +4,9 @@ require.config({
     lodash: '../vendor/lodash',
     angular: '../vendor/angular/angular',
     route: '../vendor/angular/angular-route',
-    states: '../vendor/angular-ui-router.0.2.0',
+    states: '../vendor/angular/angular-ui-router.0.2.0',
     animate: '../vendor/angular/angular-animate',
-    restangular: '../vendor/restangular.1.1.8',
+    restangular: '../vendor/angular/restangular.1.1.8',
   },
   shim : {
     angular: {

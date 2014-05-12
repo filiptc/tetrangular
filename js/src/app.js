@@ -18,7 +18,7 @@ define([
   var createApp = function () {
     return angular.module(
       config.appName,
-      ['ngAnimate', 'ivpusic.cookie', 'restangular', 'ui.router.compat', 'akoenig.deckgrid']
+      ['ngAnimate', 'ivpusic.cookie', 'restangular', 'ui.router.compat']
     );
   };
 

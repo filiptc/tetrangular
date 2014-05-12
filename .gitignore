@@ -1,5 +1,4 @@
 *.swp
 
-js/vendor
 .sass-cache/
 js/src/config/config.local.js
