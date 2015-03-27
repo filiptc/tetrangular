@@ -1,4 +1,7 @@
-*.swp
-
-.sass-cache/
-js/src/config/config.local.js
+node_modules
+web/css
+web/js/dist
+web/js/vendor
+.sass-cache
+.DS_Store
+bower_components
